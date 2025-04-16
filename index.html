@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Recursos Programación II</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="estilos.css">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
+
+</head>
+<body class="container py-4">
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand typing-title" href="#">📘 Programación Web........</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#intro">Introducción</a></li>
+          <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+          <button id="toggleTheme" class="btn btn-sm btn-outline-light ms-3">🌙 Modo Oscuro</button>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <br><br><br>
+  <h1 class="text-center mb-5">Recursos de Clase – Programación Web</h1>
+
+  <!-- Introducción a Java -->
+  <h2 class="section-title attention-glow" onclick="toggleSection('intro')">
+    🔰 Introducción a HTML <span class="fs-6 d-block mt-1">(¡Hacé clic para ver el contenido!)</span>
+  </h2>  <div id="intro" class="row collapse-section mb-5">
+    <div class="col-md-4 d-flex" style="--delay: 0.1s;"">
+      <div class="p-3 card-custom w-100">
+        <h5 class="mb-3">📘 Teoría</h5>
+        <ul class="list-unstyled">
+        <li>📄 <a href="https://docs.google.com/document/d/1-Z56FOhjGfMN_kfzHbsk__6BxgMwbhsiuSIWmG0DhZc/edit?usp=sharing" target="_blank">01-¿Desarrollo Web?</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- bloque tareas-->
+    <div class="col-md-4 d-flex"style="--delay: 0.5s;">
+      <div class="p-3 card-custom w-100">
+        <h5 class="mb-3">✍️ Tareas</h5>
+        <ul class="list-unstyled">
+          <li>📄 <a href="https://docs.google.com/document/d/1JUq5rdEX81ZVSqvEUx3Tvmq7YZnUT4CK4YE2B7eiK7M/edit?usp=sharing" target="_blank">PDF Ejercicios 16-04</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- Tarjeta Entregas GitHub -->
+<div class="col-md-4 d-flex" style="--delay: 0.9s;">
+  <div class="p-3 card-custom w-100">
+    <h5 class="mb-3">📤 Entregas</h5>
+    <ul class="list-unstyled">
+      <li>📁 Subí tu  carpeta: ProgramacionWeb_Tu_Apellido_y_Nombre.</li><br>
+      <li>📌 Igual que en Programación II: cargá la carpeta del ejercicio directo.</li>
+    </ul>
+    <div class="mt-3">
+      <a href="https://github.com" target="_blank" class="btn btn-outline-primary btn-sm">🌐 Ir a GitHub</a>
+    </div>
+  </div>
+</div>
+  </div>
+  <!-- Tarjeta Entregas de Tareas -->
+
+
+
+  <!-- Módulo FAQ - HTML -->
+<h2 class="section-title attention-glow" onclick="toggleSection('faq')">❓ Preguntas Frecuentes</h2>
+<div id="faq" class="row collapse-section mb-5">
+  <div class="col-12" style="--delay: 0.1s;">
+    <div class="p-3 card-custom w-100">
+      <h5 class="mb-3">💬 Dudas comunes sobre HTML</h5>
+      <ul class="list-unstyled">
+        <li><strong>¿Con qué programa edito archivos HTML?</strong><br>Usá <a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a> o cualquier editor de texto. ¡Hasta el Bloc de notas sirve! 💻</li>
+        <li><strong>¿Cómo veo mi archivo HTML en el navegador?</strong><br>Guardá el archivo con extensión <code>.html</code> y abrilo con doble clic. O arrastralo al navegador.</li>
+        <li><strong>¿Para qué sirven las etiquetas &lt;h1&gt;, &lt;p&gt;, &lt;ul&gt;...?</strong><br>Para estructurar el contenido. Pensalas como cajas que ordenan el texto y los elementos de tu web.</li>
+        <li><strong>¿Por qué no se ve mi imagen?</strong><br>Revisá que el nombre y la ruta del archivo estén bien escritos. ¡Y no te olvides del <code>alt</code>! 🖼️</li>
+        <li><strong>¿Qué es eso de &lt;/html&gt; o &lt;/body&gt;?</strong><br>Son etiquetas de cierre. Todo lo que abrís con <code>&lt;etiqueta&gt;</code> se cierra con <code>&lt;/etiqueta&gt;</code>.</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+  <footer class="mt-5 text-center">
+    <p class="console-effect"></p>
+  
+<!-- 🐰 Conejito de Pascuas con confeti -->
+<div class="easter-container text-center mt-4">
+  <div class="confetti"></div>
+  <div class="easter-bunny">
+    🐰
+    <div class="easter-msg">¡Felices Pascuas, Para los mejores Alumnos de Programación! <br>— Con dedicación (y algún que otro chiste Malo), Prof.Alex & Brian 👨‍🏫</div>
+  </div>
+</div>
+  
+    <p class="footer-update">
+      🛠️ Última actualización: <strong>abril 2025</strong><br>
+      <span class="footer-punchline">📄 Código validado... Chistes malos del profe también incluidos.</span>
+    </p>
+  
+    <!-- Botón huevo de pascua -->
+    <button id="easterBtn" class="easter-btn">🐣</button>
+  </footer>
+  
+
+
+  <!-- indexa a .js-->
+ 
+  
+  <script src="consola-footer.js"></script>
+  <script src="easteregg.js"></script>
+  <script src="modo-tema.js"></script>
+
+
+
+  
+  <script>
+    function toggleSection(id) {
+      const section = document.getElementById(id);
+      section.classList.toggle('show');
+    }
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
